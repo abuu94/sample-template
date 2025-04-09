@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 30,
+      "visits": 5,
+      "progress": 80,
+      "status": "Married",
+      "id": "a6d2"
+    },
+    {
+      "firstName": "Tanner",
+      "lastName": "Linsley",
+      "age": 33,
+      "visits": 100,
+      "progress": 50,
+      "status": "Married",
+      "id": "fb6c"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Vandy",
+      "age": 27,
+      "visits": 200,
+      "progress": 100,
+      "status": "Single",
+      "id": "53db"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 30,
+      "visits": 5,
+      "progress": 80,
+      "status": "Married",
+      "id": "7766"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "age": 25,
+      "visits": 3,
+      "progress": 65,
+      "status": "Unmarried",
+      "id": "ccd4"
+    },
+    {
+      "id": "40",
+      "firstName": "",
+      "lastName": "",
+      "age": 0,
+      "visits": 0,
+      "progress": 0,
+      "status": ""
+    },
+    {
+      "id": 7,
+      "firstName": "111",
+      "lastName": "111",
+      "age": 222,
+      "visits": 222,
+      "progress": 222,
+      "status": "222",
+      "image": "111"
+    }
+  ],
+  "foods": [
+    {
+      "name": "Apple",
+      "category": "Fruit",
+      "calories": 900,
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "notes": "The color could be slightly different between on the screen and in practice. ",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Banana",
+      "category": "Fruit",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "notes": "Good gift choice for you or your family member.",
+      "calories": 900
+    },
+    {
+      "id": "3",
+      "name": "Orange",
+      "category": "Fruit",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "notes": "Your perfect pack for everyday use and walks in the forest. ",
+      "calories": 900
+    },
+    {
+      "id": "4",
+      "name": "All food",
+      "category": "All",
+      "calories": 11
+    },
+    {
+      "id": "5",
+      "name": "Ordered",
+      "category": "Ordered",
+      "calories": 22
+    },
+    {
+      "id": 6,
+      "name": "dddqqq",
+      "category": "www",
+      "calories": 22
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "username": "user1@example.com",
+      "password": "password1",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user2@example.com",
+      "password": "password2",
+      "role": "user"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "E-Com",
+      "projectClient": "E-Commission Agency",
+      "startDate": "01/01/2024",
+      "endDate": "01/02/2024",
+      "status": "Closed"
+    },
+    { "id": 2,
+      "projectName": "T-Com",
+      "projectClient": "Tourism Commission Agency",
+      "startDate": "01/01/2025",
+      "endDate": "01/02/2025",
+      "status": "Opened"
+
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/* Add these styles to your existing CSS file */
+
+.table-auto {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-auto th,
+.table-auto td {
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+.table-auto th {
+  background-color: #f9fafb;
+  text-align: left;
+  font-weight: 600;
+}
+
+.table-auto tbody tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.table-auto tbody tr:hover {
+  background-color: #e5e7eb;
+}
+
+/*  chini ni kwa ajili ya charts */
+
