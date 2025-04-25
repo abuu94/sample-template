@@ -76,7 +76,7 @@ export function AdminsChart() {
                     y={(viewBox.cy || 0) + 24}
                     className="fill-muted-foreground"
                   >
-                    Administrators
+                    Admins
                   </tspan>
                 </text>
               )

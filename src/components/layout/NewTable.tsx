@@ -1,4 +1,5 @@
 import {
+  ColumnDef,
     flexRender,
     getCoreRowModel,
     getFilteredRowModel,
@@ -8,14 +9,17 @@ import {
   } from '@tanstack/react-table';
   import { Button } from '../ui/button';
   import { cn } from '@/lib/utils';
+import { ItemResponse } from '@/typesSection/tItem';
   
   type TDataTable = {
     columns: any[];
     data?: any;
+   
     openPagination?: boolean;
     filter?: string;
     sorting?: any;
     options?: Partial<TableOptions<any>>;
+   
   };
   
   const NewTable = ({
@@ -23,11 +27,13 @@ import {
     data,
     openPagination = true,
     options,
+    // sorting added by me
     ...props
   }: TDataTable) => {
     const table = useReactTable({
       columns,
       data,
+      
       ...options,
       ...props,
       getCoreRowModel: getCoreRowModel(),
@@ -38,13 +44,13 @@ import {
     return (
       <div className="overflow-x-auto">
         <table className="min-w-full table-auto border-collapse mt-4">
-          <thead className="bg-gray-100">
+          <thead className="bg-orange-100  ">
             {table.getHeaderGroups().map((headerGroup) => (
               <tr className="border-b" key={headerGroup.id}>
                 {headerGroup.headers.map((header) => (
                   <th
                     key={header.id}
-                    className="px-4 py-2 text-left text-sm font-medium text-gray-700"
+                    className="px-4 py-2 text-left text-sm font-medium text-green-700"
                   >
                     {header.isPlaceholder
                       ? null
